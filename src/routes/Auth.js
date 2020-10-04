@@ -17,12 +17,21 @@ const Auth = () => {
   };
   const onSubmit = async (event) => {
     event.preventDefault();
-    if (newAccount) {
-      await authService.createUserWithEmailAndPassword(email, password);
-      // create account
-    } else {
-      await authService.signInWithEmailAndPassword(email, password);
-      // log in
+    try {
+      let data;
+      if (newAccount) {
+        data = await authService.createUserWithEmailAndPassword(
+          email,
+          password
+        );
+        // create account
+      } else {
+        data = await authService.signInWithEmailAndPassword(email, password);
+        // log in
+      }
+      console.log(data);
+    } catch (error) {
+      console.log(error);
     }
   };
 

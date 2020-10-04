@@ -16,6 +16,11 @@ const Auth = () => {
   };
   const onSubmit = (event) => {
     event.preventDefault();
+    if (newAccount) {
+      // create account
+    } else {
+      // log in
+    }
   };
 
   return (

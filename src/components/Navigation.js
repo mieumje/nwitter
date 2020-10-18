@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEdit, faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import { faEdit, faUserCircle, faListOl } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = ({userObj}) => (
   <nav>
@@ -33,7 +33,7 @@ const Navigation = ({userObj}) => (
       </li>
       <li>
         <Link to="/ToDo" style={{ marginRight: 10 }}>
-          <FontAwesomeIcon icon={faEdit} color={"#04AAFF"} size="2x" />
+          <FontAwesomeIcon icon={faListOl} color={"#04AAFF"} size="2x" />
         </Link>
       </li>
     </ul>

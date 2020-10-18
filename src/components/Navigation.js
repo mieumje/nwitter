@@ -16,6 +16,7 @@ const Navigation = ({userObj}) => (
           to="/profile"
           style={{
             marginLeft: 10,
+            marginRight: 10,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -28,6 +29,11 @@ const Navigation = ({userObj}) => (
               ? `${userObj.displayName}의 Profile`
               : "Profile"}
           </span>
+        </Link>
+      </li>
+      <li>
+        <Link to="/ToDo" style={{ marginRight: 10 }}>
+          <FontAwesomeIcon icon={faEdit} color={"#04AAFF"} size="2x" />
         </Link>
       </li>
     </ul>

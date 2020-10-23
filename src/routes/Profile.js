@@ -46,9 +46,9 @@ export default ({ refreshUser, userObj }) => {
           }}
         />
       </form>
-      <span className="formBtn cancelBtn logOut" onClick={onLogOutClick}>
+      <div className="formBtn cancelBtn logOut" onClick={onLogOutClick}>
         Log Out
-      </span>
+      </div>
     </div>
   );
 };

@@ -47,7 +47,7 @@ form {
 .formInput {
   width: 100%;
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid black;
   text-align: center;
   background-color: white;
@@ -60,8 +60,8 @@ form {
   padding: 7px 20px;
   text-align: center;
   color: white;
-  border-radius: 20px;
-  background-color: #04aaff;
+  border-radius: 10px;
+  background-color: #7ed6df;
   cursor: pointer;
 }
 
@@ -108,8 +108,8 @@ form {
   height: 40px;
   padding: 0px 20px;
   color: white;
-  border: 1px solid #04aaff;
-  border-radius: 20px;
+  border: 1px solid #7ed6df;
+  border-radius: 10px;
   font-weight: 500;
   font-size: 12px;
 }
@@ -117,17 +117,17 @@ form {
 .factoryInput__arrow {
   position: absolute;
   right: 0;
-  background-color: #04aaff;
+  background-color: #7ed6df;
   height: 40px;
   width: 40px;
   padding: 10px 0px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
 }
 
 .factoryInput__label {
-  color: #04aaff;
+  color: #7ed6df;
   cursor: pointer;
 }
 
@@ -145,11 +145,11 @@ form {
 .factoryForm__attachment img {
   height: 80px;
   width: 80px;
-  border-radius: 40px;
+  border-radius: 50px;
 }
 
 .factoryForm__clear {
-  color: #04aaff;
+  color: #7ed6df;
   cursor: pointer;
   text-align: center;
 }
@@ -188,7 +188,7 @@ form {
   right: -10px;
   top: 20px;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 40%;
   width: 50px;
   height: 50px;
   margin-top: 10px;
@@ -227,7 +227,7 @@ form {
 
 .authBtn {
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
   padding: 10px 0px;
   font-size: 12px;
@@ -243,7 +243,7 @@ form {
   max-width: 320px;
   width: 100%;
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   font-size: 12px;
@@ -252,7 +252,7 @@ form {
 
 .authSubmit {
   text-align: center;
-  background: #04aaff;
+  background: #7ed6df;
   color: white;
   margin-top: 10;
   cursor: pointer;
@@ -266,7 +266,7 @@ form {
 }
 
 .authSwitch {
-  color: #04aaff;
+  color: #7ed6df;
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 50px;

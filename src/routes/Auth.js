@@ -3,6 +3,7 @@ import { authService, firebaseInstance } from "fbase";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faDiaspora,
   faTwitter,
   faGoogle,
   faGithub,
@@ -24,8 +25,8 @@ const Auth = () => {
   return (
     <div className="authContainer">
       <FontAwesomeIcon
-        icon={faTwitter}
-        color={"#04AAFF"}
+        icon={faDiaspora}
+        color={"#7ed6df"}
         size="3x"
         style={{ marginBottom: 30 }}
       />

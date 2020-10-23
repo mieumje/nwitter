@@ -8,7 +8,7 @@ const Navigation = ({userObj}) => (
     <ul style={{ display: "flex", justifyContent: "center", marginTop: 50 }}>
       <li>
         <Link to="/" style={{ marginRight: 10 }}>
-          <FontAwesomeIcon icon={faEdit} color={"#04AAFF"} size="2x" />
+          <FontAwesomeIcon icon={faEdit} color={"#7ed6df"} size="2x" />
         </Link>
       </li>
       <li>
@@ -23,7 +23,7 @@ const Navigation = ({userObj}) => (
             fontSize: 12,
           }}
         >
-          <FontAwesomeIcon icon={faUserCircle} color={"#04AAFF"} size="2x" />
+          <FontAwesomeIcon icon={faUserCircle} color={"#7ed6df"} size="2x" />
           <span style={{ marginTop: 10 }}>
             {userObj.displayName
               ? `${userObj.displayName}의 Profile`
@@ -33,7 +33,7 @@ const Navigation = ({userObj}) => (
       </li>
       <li>
         <Link to="/ToDo" style={{ marginRight: 10 }}>
-          <FontAwesomeIcon icon={faListOl} color={"#04AAFF"} size="2x" />
+          <FontAwesomeIcon icon={faListOl} color={"#7ed6df"} size="2x" />
         </Link>
       </li>
     </ul>
